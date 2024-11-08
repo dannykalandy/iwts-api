@@ -30,3 +30,5 @@ module IwtsApi
     config.api_only = true
   end
 end
+
+config.autoload_paths << Rails.root.join('lib')
